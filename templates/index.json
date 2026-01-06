@@ -1,0 +1,371 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "home_hero_7TVE9P": {
+      "type": "home-hero",
+      "name": "Homepage Hero",
+      "settings": {
+        "background_color": "#0f172a",
+        "background_image": "shopify://shop_images/header_v2_1.png",
+        "mobile_background_image": "shopify://shop_images/header_v2_1.png",
+        "title": "THEY LECTURED YOU. WE RESPECT YOU.",
+        "subtitle": "Experience the shave built on values, not lecturers. Join the brotherhood.",
+        "button_text": "SHOP THE FREEDOM KIT",
+        "button_link": "shopify://collections/best-sellers-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "popular_products_3gqnEi": {
+      "type": "popular-products",
+      "name": "Popular Products",
+      "settings": {
+        "background_color": "#ffffff",
+        "title": "Popular Products",
+        "collection": "home-page",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "image_and_text_TQajG3": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_CcxYji": {
+          "type": "heading",
+          "settings": {
+            "content": "REMEMBER WHEN THEY CALLED YOU TOXIC?",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
+          }
+        },
+        "text_gHnd8C": {
+          "type": "text",
+          "settings": {
+            "content": "<p>We haven’t forgotten how they tried to redefine masculinity. Ranger Core was born to push back. We believe in strength, honor, and traditional values. No lectures, just a superior shave.<br/></p>",
+            "mobile_content": "",
+            "font_size": 18
+          }
+        },
+        "button_q4qttC": {
+          "type": "button",
+          "settings": {
+            "button_text": "GET YOUR KIT",
+            "button_url": "shopify://collections/best-sellers-1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CcxYji",
+        "text_gHnd8C",
+        "button_q4qttC"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/gillette_ad_corrected.png",
+        "rounded_image": true,
+        "image_placement": "0",
+        "mobile_image_placement": "under_heading",
+        "button_text": "",
+        "button_url": "",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "rounded_cover_LfKNyh": {
+      "type": "rounded-cover",
+      "name": "Rounded Cover",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "background_image": "shopify://shop_images/meet2.png",
+        "mobile_image": "shopify://shop_images/meet3.png",
+        "title": "Meet RANGER CORE - $21 for Everything You Need",
+        "subtitle": "A quality safety razor kit designed for comfort, control, and everyday use.",
+        "button_text": "SEE WHAT'S INCLUDED",
+        "button_link": "shopify://products/ranger-core-the-freedom-starter-kit",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bigger_then_a_shave_nJQJzw": {
+      "type": "bigger-then-a-shave",
+      "blocks": {
+        "feature_yMXGpx": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/icons_donate_2.png",
+            "title": "Buy 1, Donate 1",
+            "description": "For every kit sold, we donate a full grooming set to a veteran in transition."
+          }
+        },
+        "feature_qBQxUn": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/icons_donate_2_d53d90d4-a428-42d9-a41b-08af648eb812.png",
+            "title": "40% to Boulder Crest",
+            "description": "We proudly support veteran post-traumatic growth and mental wellness initiatives."
+          }
+        },
+        "feature_gcBc9d": {
+          "type": "feature",
+          "settings": {
+            "icon_image": "shopify://shop_images/icons_vet_2.png",
+            "title": "Lifetime Warranty",
+            "description": "Our handles are built to survive the test of time. Guaranteed for life."
+          }
+        }
+      },
+      "block_order": [
+        "feature_yMXGpx",
+        "feature_qBQxUn",
+        "feature_gcBc9d"
+      ],
+      "name": "Bigger Than A Shave",
+      "settings": {
+        "heading": "Bigger Than A Shave"
+      }
+    },
+    "more_than_a_shave_YrHad6": {
+      "type": "more-than-a-shave",
+      "name": "More than a shave",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "background_image": "shopify://shop_images/morning_ritual_v2_1.png",
+        "mobile_background_image": "shopify://shop_images/morning_ritual-mobile.png",
+        "title": "More than a Shave. Supporting Veteran Wellness.",
+        "content": "<p>Strength isn’t just physical. It’s built in quiet routines, personal discipline, and showing up every day.</p><p>We support veteran wellness efforts because the fight doesn’t always end when service does. And the men who carried the weight deserve support that’s real, not performative.</p><p>Every kit helps make that possible.</p>",
+        "mobile_content": "<p>Your purchase helps fund critical programs for PTS and combat stress recovery through Boulder Crest Foundation.</p>",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "comparison_section_gw8bib": {
+      "type": "comparison-section",
+      "name": "Comparison Section",
+      "settings": {
+        "background_color": "#fcfbf9",
+        "image": "shopify://shop_images/dutyblade_us_vs_them_1.png",
+        "title": "How We Compare",
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "image_and_text_mcrAUd": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_LKMwpA": {
+          "type": "heading",
+          "settings": {
+            "content": "Ready to Make Your Stand?",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
+          }
+        },
+        "text_G939te": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Some companies sell razors.<br/>We built something you can stand behind.</p><p>The Ranger Core Kit is for men who want a solid, no-nonsense shave without paying for marketing fluff or being told what to think. Just well-made tools that do their job—day in, day out.</p><p><strong>Simple. Reliable. Built with intent.</strong></p>",
+            "mobile_content": "",
+            "font_size": 18
+          }
+        },
+        "button_zmJA4j": {
+          "type": "button",
+          "settings": {
+            "button_text": "GET YOUR FREEDOM KIT",
+            "button_url": "shopify://collections/best-sellers-1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LKMwpA",
+        "text_G939te",
+        "button_zmJA4j"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#ffffff",
+        "image": "shopify://shop_images/items2.png",
+        "rounded_image": true,
+        "image_placement": "0",
+        "mobile_image_placement": "under_heading",
+        "button_text": "",
+        "button_url": "",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
+      }
+    },
+    "blocky_image_video_slider_3iC3ny": {
+      "type": "blocky-image-video-slider",
+      "blocks": {
+        "image_myPhXq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/review04_1.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_mFcMaH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/review05.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_CDAqBa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/review06.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "video_CyfgRR": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "autoplay": false,
+            "text": "",
+            "text_alignment": "center"
+          }
+        },
+        "video_AdYUQM": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "autoplay": false,
+            "text": "",
+            "text_alignment": "center"
+          }
+        },
+        "video_wdYJJq": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "autoplay": false,
+            "text": "",
+            "text_alignment": "center"
+          }
+        },
+        "image_WLizmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/review01.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_9AmwAf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/review02.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        },
+        "image_TLNkkn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/review03.png",
+            "link": "",
+            "text": "",
+            "text_alignment": "center",
+            "text_color": "#000000",
+            "background_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_myPhXq",
+        "image_mFcMaH",
+        "image_CDAqBa",
+        "video_CyfgRR",
+        "video_AdYUQM",
+        "video_wdYJJq",
+        "image_WLizmw",
+        "image_9AmwAf",
+        "image_TLNkkn"
+      ],
+      "name": "Blocky Image/Video Slider",
+      "settings": {
+        "title": "<strong>2357 Made the Switch to DutyBlade</strong>",
+        "title_size": 40,
+        "title_color": "#000000",
+        "body_text": "",
+        "body_color": "#000000",
+        "auto_scroll": true,
+        "arrow-background-color": "#000000",
+        "arrow-carot-color": "#ffffff",
+        "dot-color": "#000000",
+        "play_button_color": "#ffffff",
+        "play_button_background_color": "#000000",
+        "media_size": "long",
+        "slides_desktop": 3,
+        "full_screen": false,
+        "desktop_content_alignment": "center",
+        "mobile_media_size": "long",
+        "slides_mobile": 2,
+        "mobile_content_alignment": "center",
+        "media_spacing": 28,
+        "arrows_position": "slider",
+        "dots_position": "under",
+        "background_color": "#fcfbf9",
+        "show_blur": false,
+        "show_shadow": true,
+        "page_width": 1200,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "home_hero_7TVE9P",
+    "popular_products_3gqnEi",
+    "image_and_text_TQajG3",
+    "rounded_cover_LfKNyh",
+    "bigger_then_a_shave_nJQJzw",
+    "more_than_a_shave_YrHad6",
+    "comparison_section_gw8bib",
+    "image_and_text_mcrAUd",
+    "blocky_image_video_slider_3iC3ny"
+  ]
+}
