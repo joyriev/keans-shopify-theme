@@ -18,7 +18,8 @@
             "content": "A Better Way to Start the Day",
             "heading_type": "h2",
             "font_size": 40,
-            "mobile_font_size": 24
+            "mobile_font_size": 24,
+            "text_color": "#ffffff"
           }
         },
         "text_VJRcpx": {
@@ -26,14 +27,17 @@
           "settings": {
             "content": "<p>Designed for those who want more from their morning, and a shave that improves with time.</p>",
             "mobile_content": "",
-            "font_size": 18
+            "font_size": 18,
+            "text_color": "#eff0f5"
           }
         },
         "button_rGwjWF": {
           "type": "button",
           "settings": {
             "button_text": "Upgrade Your Shave",
-            "button_url": ""
+            "button_url": "",
+            "button_color": "#ffffff",
+            "text_color": "#000000"
           }
         }
       },
@@ -81,7 +85,8 @@
             "content": "REMEMBER WHEN THEY CALLED YOU TOXIC?",
             "heading_type": "h2",
             "font_size": 40,
-            "mobile_font_size": 24
+            "mobile_font_size": 24,
+            "text_color": "#000000"
           }
         },
         "text_gHnd8C": {
@@ -89,14 +94,17 @@
           "settings": {
             "content": "<p>We haven’t forgotten how they tried to redefine masculinity. Ranger Core was born to push back. We believe in strength, honor, and traditional values. No lectures, just a superior shave.<br/></p>",
             "mobile_content": "",
-            "font_size": 18
+            "font_size": 18,
+            "text_color": "#000000"
           }
         },
         "button_q4qttC": {
           "type": "button",
           "settings": {
             "button_text": "GET YOUR KIT",
-            "button_url": "shopify://collections/best-sellers-1"
+            "button_url": "shopify://collections/best-sellers-1",
+            "button_color": "#000000",
+            "text_color": "#ffffff"
           }
         }
       },
@@ -202,7 +210,8 @@
             "content": "Ready to Make Your Stand?",
             "heading_type": "h2",
             "font_size": 40,
-            "mobile_font_size": 24
+            "mobile_font_size": 24,
+            "text_color": "#000000"
           }
         },
         "text_G939te": {
@@ -210,14 +219,17 @@
           "settings": {
             "content": "<p>Some companies sell razors.<br/>We built something you can stand behind.</p><p>The Ranger Core Kit is for men who want a solid, no-nonsense shave without paying for marketing fluff or being told what to think. Just well-made tools that do their job—day in, day out.</p><p><strong>Simple. Reliable. Built with intent.</strong></p>",
             "mobile_content": "",
-            "font_size": 18
+            "font_size": 18,
+            "text_color": "#000000"
           }
         },
         "button_zmJA4j": {
           "type": "button",
           "settings": {
             "button_text": "GET YOUR FREEDOM KIT",
-            "button_url": "shopify://collections/best-sellers-1"
+            "button_url": "shopify://collections/best-sellers-1",
+            "button_color": "#000000",
+            "text_color": "#ffffff"
           }
         }
       },
