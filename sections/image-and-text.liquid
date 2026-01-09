@@ -3,17 +3,20 @@
     padding-top: {{ section.settings.mobile_padding_top }}px;
     padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
     background-color: {{ section.settings.background_color }};
-    background-image: url('{{ section.settings.bg_mobile_image | image_url: width: 1920 }}');
     background-size: cover;
     background-position: center;
-
+    {% if section.settings.bg_mobile_image != "" %}
+      background-image: url('{{ section.settings.bg_mobile_image | image_url: width: 1920 }}');
+    {% endif %}
   }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }} {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-      background_image: url('{{ section.settings.bg_image | image_url: width: 1920 }}');
+      {% if section.settings.bg_image != "" %}
+        background-image: url('{{ section.settings.bg_image | image_url: width: 1920 }}');
+      {% endif %}
     }
   }
 {%- endstyle -%}
@@ -71,7 +74,7 @@
                         </div>
                     {% endif %}
                 {% when 'text' %}
-                    <div style="font-size: {{ block.settings.font_size }}px;" class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>
+                    <div style="font-size: {{ block.settings.font_size }}px; color: {{ block.settings.text_color }};" class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>
                         <div class="{%  if block.settings.mobile_content != "" %}[display:none] md:block{% endif %} [&>p:first-child]:mt-0 [&>p:last-child]:mb-0 [&>ul]:text-left [&>ul]:pl-6">
                             {{ block.settings.content }}
                         </div>
@@ -83,7 +86,7 @@
                     </div>
                   {% when 'button' %}
                     <div>
-                      <a href="{{ block.settings.button_url }}" class="button">{{ block.settings.button_text }}</a>
+                      <a href="{{ block.settings.button_url }}" style="color: {{ block.settings.text_color }}; background-color: {{ block.settings.button_color }};" class="button">{{ block.settings.button_text }}</a>
                     </div>
                   {% when 'point' %}
                     <div class="relative pl-12 text-left" {{ block.shopify_attributes }}>
@@ -335,6 +338,12 @@
                     "max": 60,
                     "step": 2,
                     "unit": "px"
+                },
+                {
+                  "type": "color",
+                  "id": "text_color",
+                  "label": "Text Color",
+                  "default": "#000000"
                 }
             ]
         },
@@ -362,6 +371,12 @@
                     "max": 60,
                     "step": 2,
                     "unit": "px"
+                },
+                {
+                  "type": "color",
+                  "id": "text_color",
+                  "label": "Text Color",
+                  "default": "#000000"
                 }
             ]
         },
@@ -378,6 +393,18 @@
               "type": "url",
               "id": "button_url",
               "label": "Button URL",
+            },
+            {
+              "type": "color",
+              "id": "button_color",
+              "label": "Button Color",
+              "default": "#000000"
+            },
+            {
+              "type": "color",
+              "id": "text_color",
+              "label": "Text Color",
+              "default": "#ffffff"
             }
           ]
         },
