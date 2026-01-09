@@ -18,7 +18,7 @@
             "content": "A Better Way to Start the Day",
             "heading_type": "h2",
             "font_size": 28,
-            "mobile_font_size": 24,
+            "mobile_font_size": 20,
             "text_color": "#ffffff"
           }
         },
@@ -50,6 +50,7 @@
       "settings": {
         "background_color": "#000000",
         "bg_image": "shopify://shop_images/keans-home-hero.png",
+        "bg_mobile_image": "shopify://shop_images/keans-home-mobile-bg_1.png",
         "rounded_image": true,
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
@@ -62,7 +63,7 @@
         "padding_top": 300,
         "padding_bottom": 88,
         "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "mobile_padding_bottom": 200
       }
     },
     "popular_products_3gqnEi": {
