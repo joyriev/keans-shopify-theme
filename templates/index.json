@@ -50,7 +50,7 @@
       "settings": {
         "background_color": "#000000",
         "bg_image": "shopify://shop_images/keans-home-hero.png",
-        "bg_mobile_image": "shopify://shop_images/keans-home-mobile-bg_1.png",
+        "bg_mobile_image": "shopify://shop_images/keans-home-mobile-bg.png",
         "rounded_image": true,
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
