@@ -14,14 +14,54 @@
       "name": "Homepage Hero",
       "settings": {
         "background_color": "#0f172a",
-        "background_image": "shopify://shop_images/header_v2_1.png",
-        "mobile_background_image": "shopify://shop_images/header_v2_1.png",
         "title": "THEY LECTURED YOU. WE RESPECT YOU.",
         "subtitle": "Experience the shave built on values, not lecturers. Join the brotherhood.",
         "button_text": "SHOP THE FREEDOM KIT",
         "button_link": "shopify://collections/best-sellers-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_and_text_nj4mfM": {
+      "type": "image-and-text",
+      "blocks": {
+        "heading_c6chEf": {
+          "type": "heading",
+          "settings": {
+            "content": "A Better Way to Start the Day",
+            "heading_type": "h2",
+            "font_size": 40,
+            "mobile_font_size": 24
+          }
+        },
+        "button_rGwjWF": {
+          "type": "button",
+          "settings": {
+            "button_text": "Upgrade Your Shave",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_c6chEf",
+        "button_rGwjWF"
+      ],
+      "name": "Image and Text",
+      "settings": {
+        "background_color": "#000000",
+        "rounded_image": true,
+        "image_placement": "0",
+        "mobile_image_placement": "under_heading",
+        "button_text": "",
+        "button_url": "",
+        "columns_gap": 40,
+        "rows_gap": 20,
+        "content_alignment": "center",
+        "blocks_gap": 24,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "mobile_padding_top": 40,
+        "mobile_padding_bottom": 40
       }
     },
     "popular_products_3gqnEi": {
@@ -71,7 +111,6 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#fcfbf9",
-        "image": "shopify://shop_images/gillette_ad_corrected.png",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
@@ -92,8 +131,6 @@
       "name": "Rounded Cover",
       "settings": {
         "background_color": "#fcfbf9",
-        "background_image": "shopify://shop_images/meet2.png",
-        "mobile_image": "shopify://shop_images/meet3.png",
         "title": "Meet RANGER CORE - $21 for Everything You Need",
         "subtitle": "A quality safety razor kit designed for comfort, control, and everyday use.",
         "button_text": "SEE WHAT'S INCLUDED",
@@ -108,7 +145,6 @@
         "feature_yMXGpx": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/icons_donate_2.png",
             "title": "Buy 1, Donate 1",
             "description": "For every kit sold, we donate a full grooming set to a veteran in transition."
           }
@@ -116,7 +152,6 @@
         "feature_qBQxUn": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/icons_donate_2_d53d90d4-a428-42d9-a41b-08af648eb812.png",
             "title": "40% to Boulder Crest",
             "description": "We proudly support veteran post-traumatic growth and mental wellness initiatives."
           }
@@ -124,7 +159,6 @@
         "feature_gcBc9d": {
           "type": "feature",
           "settings": {
-            "icon_image": "shopify://shop_images/icons_vet_2.png",
             "title": "Lifetime Warranty",
             "description": "Our handles are built to survive the test of time. Guaranteed for life."
           }
@@ -145,8 +179,6 @@
       "name": "More than a shave",
       "settings": {
         "background_color": "#fcfbf9",
-        "background_image": "shopify://shop_images/morning_ritual_v2_1.png",
-        "mobile_background_image": "shopify://shop_images/morning_ritual-mobile.png",
         "title": "More than a Shave. Supporting Veteran Wellness.",
         "content": "<p>Strength isn’t just physical. It’s built in quiet routines, personal discipline, and showing up every day.</p><p>We support veteran wellness efforts because the fight doesn’t always end when service does. And the men who carried the weight deserve support that’s real, not performative.</p><p>Every kit helps make that possible.</p>",
         "mobile_content": "<p>Your purchase helps fund critical programs for PTS and combat stress recovery through Boulder Crest Foundation.</p>",
@@ -159,7 +191,6 @@
       "name": "Comparison Section",
       "settings": {
         "background_color": "#fcfbf9",
-        "image": "shopify://shop_images/dutyblade_us_vs_them_1.png",
         "title": "How We Compare",
         "padding_top": 72,
         "padding_bottom": 72
@@ -201,7 +232,6 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/items2.png",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
@@ -223,7 +253,6 @@
         "image_myPhXq": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review04_1.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -234,7 +263,6 @@
         "image_mFcMaH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review05.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -245,7 +273,6 @@
         "image_CDAqBa": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review06.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -283,7 +310,6 @@
         "image_WLizmw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review01.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -294,7 +320,6 @@
         "image_9AmwAf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review02.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -305,7 +330,6 @@
         "image_TLNkkn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review03.png",
             "link": "",
             "text": "",
             "text_alignment": "center",
@@ -359,6 +383,7 @@
   },
   "order": [
     "home_hero_7TVE9P",
+    "image_and_text_nj4mfM",
     "popular_products_3gqnEi",
     "image_and_text_TQajG3",
     "rounded_cover_LfKNyh",
