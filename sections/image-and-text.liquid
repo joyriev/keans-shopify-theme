@@ -57,6 +57,7 @@
                         @media screen and (min-width: 750px) {
                             .block-{{ block.id }}-class {
                                 font-size: {{ block.settings.font_size }}px;
+                                color: {{ block.settings.text_color }};
                             }
                         }
                     </style>
@@ -85,8 +86,8 @@
                         {% endif %}
                     </div>
                   {% when 'button' %}
-                    <div>
-                      <a href="{{ block.settings.button_url }}" style="color: {{ block.settings.text_color }}; background-color: {{ block.settings.button_color }};" class="button">{{ block.settings.button_text }}</a>
+                    <div {{ block.shopify_attributes }}>
+                      <a href="{{ block.settings.button_url }}" style="color: {{ block.settings.text_color }}; background-color: {{ block.settings.button_color }};" class="button font-semibold">{{ block.settings.button_text }}</a>
                     </div>
                   {% when 'point' %}
                     <div class="relative pl-12 text-left" {{ block.shopify_attributes }}>
