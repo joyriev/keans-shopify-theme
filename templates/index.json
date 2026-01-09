@@ -59,7 +59,7 @@
         "rows_gap": 20,
         "content_alignment": "center",
         "blocks_gap": 24,
-        "padding_top": 200,
+        "padding_top": 300,
         "padding_bottom": 88,
         "mobile_padding_top": 40,
         "mobile_padding_bottom": 40
