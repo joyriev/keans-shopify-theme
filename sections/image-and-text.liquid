@@ -5,7 +5,7 @@
     background-color: {{ section.settings.background_color }};
     background-size: cover;
     background-position: center;
-    {% if section.settings.bg_mobile_image != "" %}
+    {% if section.settings.bg_mobile_image != blank %}
       background-image: url('{{ section.settings.bg_mobile_image | image_url: width: 1920 }}');
     {% endif %}
   }
@@ -14,7 +14,7 @@
     .section-{{ section.id }} {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
-      {% if section.settings.bg_image != "" %}
+      {% if section.settings.bg_image != blank %}
         background-image: url('{{ section.settings.bg_image | image_url: width: 1920 }}');
       {% endif %}
     }
@@ -35,7 +35,8 @@
       class="[display:grid] grid-cols-1 md:grid-cols-2"
     >
       <div class="{% if section.settings.mobile_image_placement == 'under_heading' %} [display:none] md:block {% endif %}">
-        <img
+        {% if section.settings.image != blank %}
+          <img
             class="w-full rounded-lg h-auto shadow {% if section.settings.rounded_image %} rounded-xl{% endif %}"
             src="{{ section.settings.image |  image_url }}"
             alt="{{ section.settings.alt }}"
@@ -43,6 +44,7 @@
             width="{{ section.settings.image.width }}"
             fetchpriority="{{  fetch_priority }}"
         >
+        {% endif %}
       </div>
       <div style="gap: {{ section.settings.blocks_gap }}px;" class="{% if section.settings.image_placement == '1' %} md:-order-1 {% endif %} flex flex-col text-center md:text-left">
         {% for block in section.blocks %}
@@ -53,16 +55,16 @@
                             font-size: {{ block.settings.mobile_font_size }}px;
                             font-weight: bold;
                             margin: 0;
+                            color: {{ block.settings.text_color }};
                         }
                         @media screen and (min-width: 750px) {
                             .block-{{ block.id }}-class {
                                 font-size: {{ block.settings.font_size }}px;
-                                color: {{ block.settings.text_color }};
                             }
                         }
                     </style>
                     <{{ block.settings.heading_type }} class="block-{{ block.id }}-class" {{ block.shopify_attributes }}>{{ block.settings.content }}</{{ block.settings.heading_type }}>
-                    {% if section.settings.mobile_image_placement == 'under_heading' %}
+                    {% if section.settings.mobile_image_placement == 'under_heading' and section.settings.image != blank %}
                         <div class="md:hidden">
                             <img
                             class="w-full rounded-lg h-auto shadow {% if section.settings.rounded_image %} rounded-xl{% endif %}"
