@@ -83,7 +83,7 @@
         "heading_CcxYji": {
           "type": "heading",
           "settings": {
-            "content": "REMEMBER WHEN THEY CALLED YOU TOXIC?",
+            "content": "Insane Precision on the Curve.",
             "heading_type": "h2",
             "font_size": 40,
             "mobile_font_size": 24,
@@ -117,6 +117,7 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#f8f8f8",
+        "image": "shopify://shop_images/keans_01.png",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
