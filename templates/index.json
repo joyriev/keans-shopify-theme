@@ -116,7 +116,7 @@
       ],
       "name": "Image and Text",
       "settings": {
-        "background_color": "#fcfbf9",
+        "background_color": "#f8f8f8",
         "rounded_image": true,
         "image_placement": "0",
         "mobile_image_placement": "under_heading",
