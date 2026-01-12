@@ -70,8 +70,8 @@
       "type": "popular-products",
       "name": "Popular Products",
       "settings": {
-        "background_color": "#ffffff",
-        "title": "Best Sellers",
+        "background_color": "#f7f7f7",
+        "heading": "Best Sellers",
         "collection": "home-page",
         "padding_top": 72,
         "padding_bottom": 72
