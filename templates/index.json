@@ -133,19 +133,6 @@
         "mobile_padding_bottom": 40
       }
     },
-    "rounded_cover_LfKNyh": {
-      "type": "rounded-cover",
-      "name": "Rounded Cover",
-      "settings": {
-        "background_color": "#ffffff",
-        "title": "Meet RANGER CORE - $21 for Everything You Need",
-        "subtitle": "A quality safety razor kit designed for comfort, control, and everyday use.",
-        "button_text": "SEE WHAT'S INCLUDED",
-        "button_link": "shopify://products/ranger-core-the-freedom-starter-kit",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "bigger_then_a_shave_nJQJzw": {
       "type": "bigger-then-a-shave",
       "blocks": {
@@ -396,7 +383,6 @@
     "image_and_text_nj4mfM",
     "popular_products_3gqnEi",
     "image_and_text_TQajG3",
-    "rounded_cover_LfKNyh",
     "bigger_then_a_shave_nJQJzw",
     "more_than_a_shave_YrHad6",
     "comparison_section_gw8bib",
