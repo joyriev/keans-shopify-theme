@@ -71,7 +71,7 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#ffffff",
-        "title": "",
+        "title": "Best Sellers",
         "collection": "home-page",
         "padding_top": 72,
         "padding_bottom": 72
@@ -168,18 +168,6 @@
         "heading": "Bigger Than A Shave"
       }
     },
-    "more_than_a_shave_YrHad6": {
-      "type": "more-than-a-shave",
-      "name": "More than a shave",
-      "settings": {
-        "background_color": "#fcfbf9",
-        "title": "More than a Shave. Supporting Veteran Wellness.",
-        "content": "<p>Strength isn’t just physical. It’s built in quiet routines, personal discipline, and showing up every day.</p><p>We support veteran wellness efforts because the fight doesn’t always end when service does. And the men who carried the weight deserve support that’s real, not performative.</p><p>Every kit helps make that possible.</p>",
-        "mobile_content": "<p>Your purchase helps fund critical programs for PTS and combat stress recovery through Boulder Crest Foundation.</p>",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "comparison_section_gw8bib": {
       "type": "comparison-section",
       "name": "Comparison Section",
@@ -196,36 +184,16 @@
         "heading_LKMwpA": {
           "type": "heading",
           "settings": {
-            "content": "Ready to Make Your Stand?",
+            "content": "Tab will be here",
             "heading_type": "h2",
             "font_size": 40,
             "mobile_font_size": 24,
             "text_color": "#000000"
           }
-        },
-        "text_G939te": {
-          "type": "text",
-          "settings": {
-            "content": "<p>Some companies sell razors.<br/>We built something you can stand behind.</p><p>The Ranger Core Kit is for men who want a solid, no-nonsense shave without paying for marketing fluff or being told what to think. Just well-made tools that do their job—day in, day out.</p><p><strong>Simple. Reliable. Built with intent.</strong></p>",
-            "mobile_content": "",
-            "font_size": 18,
-            "text_color": "#000000"
-          }
-        },
-        "button_zmJA4j": {
-          "type": "button",
-          "settings": {
-            "button_text": "GET YOUR FREEDOM KIT",
-            "button_url": "shopify://collections/best-sellers-1",
-            "button_color": "#000000",
-            "text_color": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "heading_LKMwpA",
-        "text_G939te",
-        "button_zmJA4j"
+        "heading_LKMwpA"
       ],
       "name": "Image and Text",
       "settings": {
@@ -384,7 +352,6 @@
     "popular_products_3gqnEi",
     "image_and_text_TQajG3",
     "bigger_then_a_shave_nJQJzw",
-    "more_than_a_shave_YrHad6",
     "comparison_section_gw8bib",
     "image_and_text_mcrAUd",
     "blocky_image_video_slider_3iC3ny"
