@@ -71,7 +71,7 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#ffffff",
-        "title": "Popular Products",
+        "title": "",
         "collection": "home-page",
         "padding_top": 72,
         "padding_bottom": 72
