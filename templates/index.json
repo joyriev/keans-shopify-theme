@@ -176,7 +176,8 @@
       "type": "comparison-section",
       "name": "Comparison Section",
       "settings": {
-        "background_color": "#fcfbf9",
+        "background_color": "#ffffff",
+        "image": "shopify://shop_images/dutyblade_us_vs_them_1.png",
         "title": "How We Compare",
         "padding_top": 72,
         "padding_bottom": 72
