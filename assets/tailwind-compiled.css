@@ -297,6 +297,10 @@
     height: 100%
 }
 
+.h-6 {
+    height: 24px
+}
+
 .min-h-\[200px\] {
     min-height: 200px
 }
@@ -1400,6 +1404,11 @@
         line-height: 28px
     }
 
+    .md\:text-base {
+        font-size: 16px;
+        line-height: 24px
+    }
+
     .md\:tracking-wider {
         letter-spacing: 0.05em
     }
@@ -1423,6 +1432,10 @@
 
 .\[\&\>\.active\]\:\[border-bottom\:3px_solid_\#22613A\]>.active {
     border-bottom: 3px solid #22613A
+}
+
+.\[\&\>\.active\]\:\[border\:2px_solid_\#000000\]>.active {
+    border: 2px solid #000000
 }
 
 .\[\&\>p\:first-child\]\:mt-0>p:first-child {

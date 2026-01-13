@@ -215,14 +215,10 @@
       ],
       "name": "Homepage Products Tab",
       "settings": {
-        "background_color": "#fcfbf9",
-        "heading": "Selected for you",
-        "button_text": "View All",
-        "button_link": "shopify://collections/all",
-        "explore_heading": "Explore More",
-        "explore_subheading": "Discover our latest collections",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "background_color": "#f7f7f7",
+        "heading": "Find the Right Tool for You",
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     },
     "blocky_image_video_slider_3iC3ny": {

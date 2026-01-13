@@ -17,10 +17,16 @@
   style="background-color: {{ section.settings.background_color }}">
   <div class="page-width">
     <h2 class="text-center text-2xl md:text-4xl font-semibold mb-6 mt-0">{{ section.settings.heading }}</h2>
-    <div class="flex justify-center border-0 border-b border-b-gray-100 border-solid [&>.active]:[border-bottom:3px_solid_#22613A]">
+    <p class="text-center text-sm md:text-base text-gray-600 mb-8">{{ section.settings.subheading }}</p>
+    <div class="flex gap-3 justify-center [&>.active]:[border:2px_solid_#000000]">
       {% for block in section.blocks %}
-        <button class="bg-transparent text-black border-0 font-semibold text-sm md:text-lg px-4 py-3 cursor-pointer products-tab-btn">
-          {{ block.settings.tab_title }}
+        <button class="bg-white text-black border-2 border-gray-200 rounded-lg border-solid font-semibold text-sm md:text-lg px-4 py-2 cursor-pointer products-tab-btn">
+        {% if block.settings.tab_icon %}
+          <img src="{{ block.settings.tab_icon | image_url }}" alt="{{ block.settings.tab_title }}" class="w-6 h-6" width="24" height="24">
+        {% endif %}
+        <span>
+            {{ block.settings.tab_title }}
+          </span>
         </button>
       {% endfor %}
     </div>
@@ -28,72 +34,58 @@
       <div class="tab-content pt-6 {% unless forloop.first %}[display:none]{% endunless %}">
         {% assign collection = block.settings.collection %}
         {% if collection and collection.products.size > 0 %}
-          <ul
-            id="product-grid"
-            data-id="{{ section.id }}"
-            style="display: flex !important;"
-            class="grid product-grid grid--2-col-tablet-down grid--4-col-desktop">
-            {% render 'card-product-bogo' %}
-            {% assign skip_card_product_styles = false %}
-            {%- for product in collection.products limit: 6 -%}
-              {% assign lazy_load = false %}
-              {%- if forloop.index > 2 -%}
-                {%- assign lazy_load = true -%}
-              {%- endif -%}
-              <li
-                class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-                {% if settings.animations_reveal_on_scroll %}
-                data-cascade
-                style="--animation-order: {{ forloop.index }};"
-                {% endif %}>
-                {% render 'card-product'
-                  , card_product: product
-                  , media_aspect_ratio: section.settings.image_ratio
-                  , image_shape: section.settings.image_shape
-                  , show_secondary_image: section.settings.show_secondary_image
-                  , show_vendor: section.settings.show_vendor
-                  , show_rating: true
-                  , lazy_load: lazy_load
-                  , skip_styles: skip_card_product_styles
-                  , quick_add: section.settings.quick_add
-                  , section_id: section.id
-                %}
-              </li>
-              {%- assign skip_card_product_styles = true -%}
+          <div class="grid grid-cols-2 gap-6 md:gap-8 md:grid-cols-4">
+            {%- for product in collection.products limit: 4 -%}
+              <div class="flex flex-col bg-white p-4 pt-11 shadow-sm rounded-lg relative">
+                {% if product.tags contains 'bestseller' or product.tags contains 'onsale' %}
+                    <div class="absolute top-3 left-4 flex gap-4">
+                    {% if product.tags contains 'bestseller' %}
+                        <div class="bg-blue-50 text-blue-600 px-2 py-1 text-xs rounded-full flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>  
+                        <span>Bestseller</span>
+                        </div>
+                    {% elsif product.tags contains 'onsale' %}
+                        <div class="bg-red-50 text-red-600 px-2 py-1 text-xs rounded-full">⚡ On Sale</div>
+                    {% endif %}
+                    </div>
+                {% endif %}
+                <a href="{{ product.url }}" class="flex">
+                    <img
+                    class="w-full h-auto"
+                    src="{{ product.images.first |  image_url: width: 300 }}"
+                    alt="{{ product.title }}"
+                    height="{{ product.images.first.height }}"
+                    width="{{ product.images.first.width }}">
+                </a>
+                <h3 class="mb-0 text-base">
+                    <a class="no-underline text-black font-semibold" href="{{product.url}}">
+                    {{ product.title }}
+                    </a>
+                </h3>
+                <div class="line-clamp-3 text-sm [&_br]:hidden">
+                    {{ product.metafields.custom.short_description | metafield_tag }}
+                </div>
+                <div class="my-3">
+                    {%- render 'price'
+                    , product: product
+                    , use_variant: true
+                    , show_badges: false
+                    , price_class: 'price--small'
+                    -%}
+                </div>
+                <div class="mt-auto">
+                    <a class="bg-black text-white uppercase text-sm font-semibold tracking-[2px] py-3 px-4 rounded-lg no-underline w-full text-center block" href="{{ product.url }}">
+                    Buy Now
+                    </a>
+                </div>
+                </div>
             {%- endfor -%}
-            {% render 'edp-poster' %}
-          </ul>
+          </div>
         {% else %}
           <p class="text-gray-500">No products found in this collection.</p>
         {% endif %}
       </div>
     {% endfor %}
-    {% comment %} Tabs CTA button {% endcomment %}
-
-    <div class="flex flex-col md:flex-row md:justify-center md:items-center gap-5 mt-14">
-      <img
-        class="w-full rounded-xl md:max-w-[400px] h-auto "
-        src="{{section.settings.explore_image | image_url: width: 450 }}"
-        alt=""
-        loading="lazy"
-        height="{{ section.settings.explore_image.height }}"
-        width="{{ section.settings.explore_image.width }}">
-
-      <div class="flex justify-between items-center md:items-start md:flex-col gap-4">
-        <div>
-          <h3 class="text-base md:text-2xl font-semibold m-0 tracking-tight">{{ section.settings.explore_heading }}</h3>
-          <p class="m-0 text-sm md:text-lg font-medium tracking-tight">{{ section.settings.explore_subheading }}</p>
-        </div>
-        <div>
-          <a
-            href="{{ section.settings.button_link }}"
-            class="no-underline text-white font-semibold px-6 md:px-10 py-3 bg-[#137c44] hover:bg-[#02491c] rounded-full tracking-normal md:tracking-wider text-lg transition-colors uppercase inline-block"
-            aria-label="{{ section.settings.button_text }}">
-            {{ section.settings.button_text }}
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
@@ -141,33 +133,15 @@
       },
       {
         "type": "text",
-        "id": "button_text",
-        "label": "Button Text",
-        "default": "View All"
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "Discover our curated selection of premium Shaving products."
       },
       {
-        "type": "url",
-        "id": "button_link",
-        "label": "Button Link",
-        "default": "/collections/all"
-      }, {
-        "type": "image_picker",
-        "id": "explore_image",
-        "label": "Explore Image"
-      }, {
-        "type": "text",
-        "id": "explore_heading",
-        "label": "Explore Heading",
-        "default": "Explore More"
-      }, {
-        "type": "text",
-        "id": "explore_subheading",
-        "label": "Explore Subheading",
-        "default": "Discover our latest collections"
-      }, {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"
-      }, {
+      },
+      {
         "type": "range",
         "id": "padding_top",
         "min": 0,
@@ -192,7 +166,12 @@
         "type": "collection",
         "name": "Collection",
         "settings": [
-          {
+            {
+                "type": "image_picker",
+                "id": "tab_icon",
+                "label": "Tab Icon"
+            },
+            {
             "type": "text",
             "id": "tab_title",
             "label": "Tab Title"
