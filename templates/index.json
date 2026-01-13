@@ -222,105 +222,44 @@
         "padding_bottom": 72
       }
     },
-    "blocky_image_video_slider_3iC3ny": {
-      "type": "blocky-image-video-slider",
+    "ugc_slider_76fkYw": {
+      "type": "ugc-slider",
       "blocks": {
-        "image_myPhXq": {
+        "image_6LBjBb": {
           "type": "image",
           "settings": {
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
+            "image": "shopify://shop_images/review06.png"
           }
         },
-        "image_mFcMaH": {
+        "image_9ARAYp": {
           "type": "image",
           "settings": {
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
+            "image": "shopify://shop_images/review05.png"
           }
         },
-        "image_CDAqBa": {
+        "image_CFQK9D": {
           "type": "image",
           "settings": {
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
+            "image": "shopify://shop_images/review04_1.png"
           }
         },
-        "image_WLizmw": {
+        "image_yFrK9n": {
           "type": "image",
           "settings": {
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
-          }
-        },
-        "image_9AmwAf": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
-          }
-        },
-        "image_TLNkkn": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "text": "",
-            "text_alignment": "center",
-            "text_color": "#000000",
-            "background_color": "#ffffff"
+            "image": "shopify://shop_images/review03.png"
           }
         }
       },
       "block_order": [
-        "image_myPhXq",
-        "image_mFcMaH",
-        "image_CDAqBa",
-        "image_WLizmw",
-        "image_9AmwAf",
-        "image_TLNkkn"
+        "image_6LBjBb",
+        "image_9ARAYp",
+        "image_CFQK9D",
+        "image_yFrK9n"
       ],
-      "name": "Blocky Image/Video Slider",
+      "name": "UGC Slider",
       "settings": {
-        "title": "<strong>2357 Made the Switch to DutyBlade</strong>",
-        "title_size": 40,
-        "title_color": "#000000",
-        "body_text": "",
-        "body_color": "#000000",
-        "auto_scroll": true,
-        "arrow-background-color": "#000000",
-        "arrow-carot-color": "#ffffff",
-        "dot-color": "#000000",
-        "play_button_color": "#ffffff",
-        "play_button_background_color": "#000000",
-        "media_size": "long",
-        "slides_desktop": 3,
-        "full_screen": false,
-        "desktop_content_alignment": "center",
-        "mobile_media_size": "long",
-        "slides_mobile": 2,
-        "mobile_content_alignment": "center",
-        "media_spacing": 28,
-        "arrows_position": "slider",
-        "dots_position": "under",
         "background_color": "#ffffff",
-        "show_blur": false,
-        "show_shadow": true,
-        "page_width": 1200,
+        "heading": "1000+ Made Switch To Keans.co",
         "padding_top": 72,
         "padding_bottom": 72
       }
@@ -333,6 +272,6 @@
     "bigger_then_a_shave_nJQJzw",
     "comparison_section_gw8bib",
     "home_tabs_fcxFYG",
-    "blocky_image_video_slider_3iC3ny"
+    "ugc_slider_76fkYw"
   ]
 }
