@@ -225,6 +225,12 @@
     "ugc_slider_76fkYw": {
       "type": "ugc-slider",
       "blocks": {
+        "image_gGB67M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/review01.webp"
+          }
+        },
         "image_6LBjBb": {
           "type": "image",
           "settings": {
@@ -251,6 +257,7 @@
         }
       },
       "block_order": [
+        "image_gGB67M",
         "image_6LBjBb",
         "image_9ARAYp",
         "image_CFQK9D",
