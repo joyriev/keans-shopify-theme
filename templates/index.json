@@ -71,6 +71,8 @@
       "name": "Popular Products",
       "settings": {
         "background_color": "#f7f7f7",
+        "heading": "Popular Products",
+        "subheading": "Designed and formulated for quality.",
         "collection": "home-page",
         "padding_top": 72,
         "padding_bottom": 72
@@ -138,6 +140,7 @@
         "feature_yMXGpx": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify://shop_images/donate-donation-svgrepo-com.png",
             "title": "Buy 1, Donate 1",
             "description": "For every kit sold, we donate a full grooming set to a veteran in transition."
           }
@@ -145,6 +148,7 @@
         "feature_qBQxUn": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify://shop_images/solidarity-ribbon-svgrepo-com.png",
             "title": "40% to Boulder Crest",
             "description": "We proudly support veteran post-traumatic growth and mental wellness initiatives."
           }
@@ -152,6 +156,7 @@
         "feature_gcBc9d": {
           "type": "feature",
           "settings": {
+            "icon_image": "shopify://shop_images/warranty-svgrepo-com.png",
             "title": "Lifetime Warranty",
             "description": "Our handles are built to survive the test of time. Guaranteed for life."
           }
