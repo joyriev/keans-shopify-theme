@@ -189,21 +189,21 @@
         "collection_gRbYPe": {
           "type": "collection",
           "settings": {
-            "tab_title": "Bestseller",
+            "tab_title": "⚡ Bestseller",
             "collection": "home-page"
           }
         },
         "collection_xgUpzQ": {
           "type": "collection",
           "settings": {
-            "tab_title": "Trending",
+            "tab_title": "🔥 Trending",
             "collection": "home-page"
           }
         },
         "collection_3WBTm3": {
           "type": "collection",
           "settings": {
-            "tab_title": "New Arrivals",
+            "tab_title": "📥 New Arrivals",
             "collection": "home-page"
           }
         }
@@ -217,6 +217,7 @@
       "settings": {
         "background_color": "#f7f7f7",
         "heading": "Find the Right Tool for You",
+        "subheading": "Discover our curated selection of premium Shaving products.",
         "padding_top": 72,
         "padding_bottom": 72
       }
