@@ -220,103 +220,15 @@
         "heading": "WHAT'S INCLUDED"
       }
     },
-    "us_vs_them_RpHnqx": {
-      "type": "us-vs-them",
-      "blocks": {
-        "comparison_row_7UXgjw": {
-          "type": "comparison_row",
-          "settings": {
-            "us_text": "Premium Safety Razor",
-            "them_text": "Plastic Cartridge Razor"
-          }
-        },
-        "comparison_row_LNyUCg": {
-          "type": "comparison_row",
-          "settings": {
-            "us_text": "High-Quality Stainless Blades",
-            "them_text": "Expensive Disposable Refills"
-          }
-        },
-        "comparison_row_cxNEkx": {
-          "type": "comparison_row",
-          "settings": {
-            "us_text": "Traditional Shaving Soap",
-            "them_text": "Chemical-Filled Gel"
-          }
-        },
-        "comparison_row_WMrefk": {
-          "type": "comparison_row",
-          "settings": {
-            "us_text": "Veteran-Owned & Operated",
-            "them_text": "Corporate Mass Production"
-          }
-        },
-        "comparison_row_Jpem38": {
-          "type": "comparison_row",
-          "settings": {
-            "us_text": "Lifetime Warranty",
-            "them_text": "Planned Obsolescence"
-          }
-        }
-      },
-      "block_order": [
-        "comparison_row_7UXgjw",
-        "comparison_row_LNyUCg",
-        "comparison_row_cxNEkx",
-        "comparison_row_WMrefk",
-        "comparison_row_Jpem38"
-      ],
-      "name": "Us vs Them",
-      "settings": {
-        "heading": "Us vs Them",
-        "subheading": "The standard you walk past is the standard you accept.",
-        "cta_link": "",
-        "cta_text": "Upgrade Your Ritual Today"
-      }
-    },
-    "image_and_text_rty6Xt": {
-      "type": "image-and-text",
-      "blocks": {
-        "heading_xQfEGw": {
-          "type": "heading",
-          "settings": {
-            "content": "BUY 1 DONATE 1 🇺🇸",
-            "heading_type": "h2",
-            "font_size": 40,
-            "mobile_font_size": 24,
-            "text_color": "#000000"
-          }
-        },
-        "text_dqRtkj": {
-          "type": "text",
-          "settings": {
-            "content": "<p>For every Freedom Starter</p><p>Kit purchased, we donate a kit to a veteran in need through our partnership with Boulder Crest Foundation.</p><p>Your purchase makes a difference.</p>",
-            "mobile_content": "",
-            "font_size": 18,
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xQfEGw",
-        "text_dqRtkj"
-      ],
-      "name": "Image and Text",
+    "comparison_section_adhb8j": {
+      "type": "comparison-section",
+      "name": "Comparison Section",
       "settings": {
         "background_color": "#ffffff",
-        "rounded_image": true,
-        "image_placement": "0",
-        "mobile_image_placement": "under_heading",
-        "button_text": "",
-        "button_url": "",
-        "columns_gap": 40,
-        "rows_gap": 20,
-        "content_alignment": "center",
-        "blocks_gap": 24,
+        "image": "shopify://shop_images/dutyblade_us_vs_them_1.png",
+        "title": "How We Compare",
         "padding_top": 72,
-        "padding_bottom": 72,
-        "mobile_padding_top": 40,
-        "mobile_padding_bottom": 40
+        "padding_bottom": 72
       }
     },
     "collapsible_content_xgLkqk": {
@@ -382,25 +294,24 @@
         "padding_bottom": 72
       }
     },
-    "popular_products_NiT3Fm": {
+    "popular_products_BptEUV": {
       "type": "popular-products",
       "name": "Popular Products",
       "settings": {
         "background_color": "#fcfbf9",
         "heading": "Popular Products",
         "subheading": "Designed and formulated for quality.",
-        "collection": "best-sellers-1",
-        "padding_top": 72,
-        "padding_bottom": 72
+        "collection": "home-page",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "what_included_4m9LU7",
-    "us_vs_them_RpHnqx",
-    "image_and_text_rty6Xt",
+    "comparison_section_adhb8j",
     "collapsible_content_xgLkqk",
-    "popular_products_NiT3Fm"
+    "popular_products_BptEUV"
   ]
 }
