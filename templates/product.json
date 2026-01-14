@@ -24,14 +24,17 @@
         },
         "reactive_atc_LBDQE9": {
           "type": "reactive_atc",
+          "disabled": true,
           "settings": {}
         },
         "payment_badges_FkCwVc": {
           "type": "payment_badges",
+          "disabled": true,
           "settings": {}
         },
         "delivery_deadline_CQHJwz": {
           "type": "delivery_deadline",
+          "disabled": true,
           "settings": {
             "date_text": "Want it by [DATE]?",
             "days": 2,
@@ -96,6 +99,7 @@
         },
         "product_reviews_W3CkbE": {
           "type": "product_reviews",
+          "disabled": true,
           "settings": {
             "show_placeholder_image": true,
             "reviewer_1": "Mark H.",
