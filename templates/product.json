@@ -52,6 +52,20 @@
             "text_alignment": "center"
           }
         },
+        "text_XCCWH9": {
+          "type": "text",
+          "settings": {
+            "text": "Our premium shave for maximum comfort",
+            "text_style": "body"
+          }
+        },
+        "variant_picker_hH3Diz": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
         "price_MG94AW": {
           "type": "price",
           "settings": {}
@@ -141,6 +155,8 @@
         "reactive_atc_LBDQE9",
         "payment_badges_FkCwVc",
         "delivery_deadline_CQHJwz",
+        "text_XCCWH9",
+        "variant_picker_hH3Diz",
         "price_MG94AW",
         "buy_buttons_eXWBwX",
         "icon_with_text_ytpGUH",
