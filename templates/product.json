@@ -70,6 +70,10 @@
           "type": "price",
           "settings": {}
         },
+        "quantity_selector_WT7P8d": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "buy_buttons_eXWBwX": {
           "type": "buy_buttons",
           "settings": {
@@ -158,6 +162,7 @@
         "text_XCCWH9",
         "variant_picker_hH3Diz",
         "price_MG94AW",
+        "quantity_selector_WT7P8d",
         "buy_buttons_eXWBwX",
         "icon_with_text_ytpGUH",
         "collapsible_tab_FAAFhb",
