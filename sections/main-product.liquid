@@ -930,6 +930,9 @@
     <script type="application/ld+json">
       {{ product | structured_data }}
     </script>
+
+    {% comment %} Shaving routine upsell {% endcomment %}
+    {% render 'shaving-routine' %}
   </div>
 </product-info>
 
