@@ -26,6 +26,18 @@
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
+.product__media-container .accordion:nth-child(2) {
+  border-top: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.product__media-container .accordion:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 .accordion__title {
   display: inline-block;
   max-width: calc(100% - 6rem);
