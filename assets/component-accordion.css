@@ -20,13 +20,13 @@
 }
 
 .accordion {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   margin-bottom: 0;
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
 
-.product__media-container .accordion:nth-child(2) {
+.product__media-container .accordion:first-child {
   border-top: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
