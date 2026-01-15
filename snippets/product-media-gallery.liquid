@@ -22,7 +22,7 @@
       {%- for media in product.media limit: limit -%}
         <button
           type="button"
-          class="p-0 relative aspect-square rounded overflow-hidden transition-all border-2 border-solid cursor-pointer {% if forloop.first %}border-black{% else %}border-transparent{% endif %}"
+          class="p-0 relative aspect-square rounded overflow-hidden transition-all border-2 border-solid cursor-pointer {% if forloop.first %}border-black{% else %}border-transparent{% endif %} size-[60px]"
           data-media-thumbnail
           data-media-id="{{ media.id }}"
           data-index="{{ forloop.index0 }}"
