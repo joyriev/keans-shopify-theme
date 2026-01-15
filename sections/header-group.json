@@ -14,29 +14,44 @@
     "blocky_lys_scrolling_text_bar_GLkKNr": {
       "type": "blocky-lys-scrolling-text-bar",
       "blocks": {
-        "text_QD7JEH": {
+        "text_KwnK4Y": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "ENGINEERED FOR A CLEANER SHAVE"
+          }
+        },
+        "text_39tt9p": {
           "type": "text",
           "settings": {
-            "text": "BUILT FOR PATRIOTS"
+            "text": "MADE IN THE EU"
           }
         },
         "text_DiPtyi": {
           "type": "text",
           "settings": {
-            "text": "FREE SHIPPING $60"
+            "text": "FREE SHIPPING $65"
           }
         },
-        "text_KwnK4Y": {
+        "text_7Mhc9j": {
           "type": "text",
           "settings": {
-            "text": "MADE BY VETS, NOT BOARDROOMS"
+            "text": "60-DAY GUARANTEE"
+          }
+        },
+        "text_QD7JEH": {
+          "type": "text",
+          "settings": {
+            "text": "SAFE & SECURE CHECKOUT"
           }
         }
       },
       "block_order": [
-        "text_QD7JEH",
+        "text_KwnK4Y",
+        "text_39tt9p",
         "text_DiPtyi",
-        "text_KwnK4Y"
+        "text_7Mhc9j",
+        "text_QD7JEH"
       ],
       "settings": {
         "text_size": "1.5",
