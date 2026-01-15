@@ -225,38 +225,66 @@
     "ugc_slider_76fkYw": {
       "type": "ugc-slider",
       "blocks": {
+        "image_gNjqDT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/keans_review_06.png"
+          }
+        },
+        "image_Wiqb4h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/keans_review_07.png"
+          }
+        },
+        "image_ywkG7j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/keans_review_08.png"
+          }
+        },
+        "image_TXdQU7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/keans_review_09.png"
+          }
+        },
         "image_gGB67M": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review01.webp"
+            "image": "shopify://shop_images/keans_review_01.png"
           }
         },
         "image_6LBjBb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review06.png"
+            "image": "shopify://shop_images/keans_review_02.png"
           }
         },
         "image_9ARAYp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review05.png"
+            "image": "shopify://shop_images/keans_review_03.png"
           }
         },
         "image_CFQK9D": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review04_1.png"
+            "image": "shopify://shop_images/keans_review_04.png"
           }
         },
         "image_yFrK9n": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/review03.png"
+            "image": "shopify://shop_images/keans_review_05.png"
           }
         }
       },
       "block_order": [
+        "image_gNjqDT",
+        "image_Wiqb4h",
+        "image_ywkG7j",
+        "image_TXdQU7",
         "image_gGB67M",
         "image_6LBjBb",
         "image_9ARAYp",
