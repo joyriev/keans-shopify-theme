@@ -23,6 +23,7 @@
         },
         "text_39tt9p": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "MADE IN THE EU"
           }
