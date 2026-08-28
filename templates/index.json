@@ -327,6 +327,7 @@
         "image_CFQK9D",
         "image_yFrK9n"
       ],
+      "disabled": true,
       "name": "UGC Slider",
       "settings": {
         "background_color": "#ffffff",
