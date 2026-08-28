@@ -275,12 +275,14 @@
         },
         "image_TXdQU7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/keans_review_09.png"
           }
         },
         "image_gGB67M": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/keans_review_01.png"
           }
@@ -293,18 +295,21 @@
         },
         "image_9ARAYp": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/keans_review_03.png"
           }
         },
         "image_CFQK9D": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/keans_review_04.png"
           }
         },
         "image_yFrK9n": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/keans_review_05.png"
           }
