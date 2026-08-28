@@ -35,7 +35,7 @@
           "type": "button",
           "settings": {
             "button_text": "Upgrade Your Shave",
-            "button_url": "shopify://products/keans-plus-handle",
+            "button_url": "shopify://collections/home-page",
             "button_color": "#ffffff",
             "text_color": "#000000"
           }
@@ -104,7 +104,7 @@
           "type": "button",
           "settings": {
             "button_text": "GET YOUR KIT",
-            "button_url": "shopify://products/keans-plus-handle",
+            "button_url": "shopify://collections",
             "button_color": "#000000",
             "text_color": "#ffffff"
           }
