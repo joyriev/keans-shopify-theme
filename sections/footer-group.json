@@ -32,7 +32,7 @@
           "type": "text",
           "settings": {
             "heading": "Contact",
-            "subtext": "<p>Email: hello@keans.co</p><p>+18883736114<br/></p><p><a href=\"https://www.imsig.pl/krs/0001204680/sprawozdania\" target=\"_blank\">MAGYX SP. Z O.O.</a>  </p><p>ul. Marszałka Józefa Piłsudskiego 31A/15, 72-300 Gryfice, Poland.</p><p><br/></p>"
+            "subtext": "<p>Email: hello@keans.co</p><p><a href=\"tel: +18883736114\" title=\"tel: +18883736114\">+18883736114</a><br/></p><p><a href=\"https://www.imsig.pl/krs/0001204680/sprawozdania\" target=\"_blank\">MAGYX SP. Z O.O.</a>  </p><p>ul. Marszałka Józefa Piłsudskiego 31A/15, 72-300 Gryfice, Poland.</p><p><br/></p>"
           }
         }
       },
