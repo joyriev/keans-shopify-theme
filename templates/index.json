@@ -104,7 +104,7 @@
           "type": "button",
           "settings": {
             "button_text": "GET YOUR KIT",
-            "button_url": "shopify://collections/best-sellers-1",
+            "button_url": "shopify://products/keans-plus-handle",
             "button_color": "#000000",
             "text_color": "#ffffff"
           }
