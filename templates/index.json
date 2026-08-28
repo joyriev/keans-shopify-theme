@@ -35,7 +35,7 @@
           "type": "button",
           "settings": {
             "button_text": "Upgrade Your Shave",
-            "button_url": "",
+            "button_url": "shopify://products/keans-plus-handle",
             "button_color": "#ffffff",
             "text_color": "#000000"
           }
