@@ -49,7 +49,7 @@
       "name": "Image and Text",
       "settings": {
         "background_color": "#000000",
-        "bg_image": "shopify://shop_images/keans-home-hero.png",
+        "bg_image": "shopify://shop_images/home_hero_banner.png",
         "bg_mobile_image": "shopify://shop_images/keans-home-mobile-bg.png",
         "rounded_image": true,
         "image_placement": "1",
